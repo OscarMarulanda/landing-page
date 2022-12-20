@@ -31,6 +31,10 @@ h1{
     color: #f9faf8;
 }
 
+p{
+    color: #f9faf8;
+}
+
 .top2{
     display: flex;
     flex: 1;
@@ -40,9 +44,8 @@ h1{
     padding-right: 10em;
 }
 
-.fimg{
-    height: 200px;
-    width: 300px;
+img{
+    max-width: 300px;
 }
 
 
@@ -58,7 +61,7 @@ h1{
 
 .imagestext{
     display: flex;
-    flex: 1 1 0;
+    
 }
 
 .lowermiddle{
@@ -66,6 +69,7 @@ h1{
     padding-left: 10em;
     padding-right: 10em;
     font-size: larger;
+    background-color: #e5e7eb;
 }
 .quote{
     font-size: larger;
@@ -85,5 +89,32 @@ button{
     padding: 8px 18px 8px 18px;
     border-radius: 10%;
     margin-bottom: 1em;
+    
+}
+
+
+
+.blue{
+    display: flex;
+    gap: 3em;
+    background-color: #3882f6;
+    border-radius: 4%;
+    width:fit-content;
+    margin:auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    align-content: center;
+}
+
+.bluetext{
+    padding-left: 15px;
+}
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 2em;
+    color: #e5e7eb;
+    font-size: smaller;
     
 }
