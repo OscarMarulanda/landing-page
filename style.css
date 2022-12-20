@@ -1,3 +1,7 @@
+body{
+    margin:0;
+}
+
 .toptop{
     display: flex;
     flex-direction: column;
@@ -37,15 +41,16 @@ p{
 
 .top2{
     display: flex;
-    flex: 1;
     justify-content: space-between;
     gap: 50px;
     padding-left: 10em;
     padding-right: 10em;
+    align-items: center;
 }
 
 img{
-    max-width: 300px;
+    max-width: 200px;
+    
 }
 
 
@@ -57,11 +62,22 @@ img{
     gap: 1em;
     align-items: center;
     background-color: aliceblue;
+    padding-bottom: 3em;
 }
 
 .imagestext{
     display: flex;
-    
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3em;
+        
+}
+
+.imagetext{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 200px;
 }
 
 .lowermiddle{
@@ -96,18 +112,22 @@ button{
 
 .blue{
     display: flex;
-    gap: 3em;
+    gap: 20em;
     background-color: #3882f6;
-    border-radius: 4%;
+    border-radius: 5px;
     width:fit-content;
     margin:auto;
     margin-bottom: 2em;
     margin-top: 2em;
     align-content: center;
+    padding: 20px;
+    color: #f9faf8;
+    font-size: larger;
+    font-weight: 700;
 }
 
 .bluetext{
-    padding-left: 15px;
+    background-color: #3882f6;
 }
 
 footer{
